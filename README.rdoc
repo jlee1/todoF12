@@ -6,23 +6,23 @@ This is what your sample code should look like if you completed the TODO project
 == Commands used
 
 1. Create a new rails application called todo:
-       rails new todo
+       $ rails new todo
 
 2. Change directory to TODO and start the web server:
-       cd todo
-       rails s (ro rails server)
+       $ cd todo
+       $ rails s (or you can use rails server)
 
 3. Go to http://localhost:3000/ and you'll see:
        "Welcome aboard: You're riding Ruby on Rails!"
 
 4. Create the scaffold:
-        "rails g scaffold task name:string due_date:date finished:boolean"
+        $ rails g scaffold task name:string due_date:date finished:boolean
 
 5. Migrate the database:
-        "rake db:migrate"
+        $ rake db:migrate
 
-6. Remove the default index page. (`public/index.html`)
+6. Remove the default index page. (<tt>public/index.html</tt)
 
-7. Update `config/routes.rb` to include a root route.
+7. Update <tt>config/routes.rb</tt> to include a root route.
 
 

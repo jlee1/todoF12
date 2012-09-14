@@ -21,7 +21,7 @@ This is what your sample code should look like if you completed the TODO project
 5. Migrate the database:
         $ rake db:migrate
 
-6. Remove the default index page. (<tt>public/index.html</tt)
+6. Remove the default index page. (<tt>public/index.html</tt>)
 
 7. Update <tt>config/routes.rb</tt> to include a root route.
 

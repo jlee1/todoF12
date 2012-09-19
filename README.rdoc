@@ -25,4 +25,12 @@ This is what your sample code should look like if you completed the TODO project
 
 7. Update <tt>config/routes.rb</tt> to include a root route.
 
+== Modifications
+
+1. Add validations to the model
+ (You can run <tt>rails c</tt> to get to an irb console with your rails code loaded up.)
+
+2. Edit the views, and add a partial ("_task.html.erb") file.
+
+3. Edit the stylesheets in app/assets/stylesheets directory.
 

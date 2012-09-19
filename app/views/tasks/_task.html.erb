@@ -1,0 +1,7 @@
+<h2 class="task_title"><%= link_to_unless_current task.name, task %></h2>
+
+<p><strong>Due Date: <%= task.due_date.to_s %></strong></p>
+<p>
+<%= link_to 'Edit', edit_task_path(task) %> |
+<%= link_to 'Back', tasks_path %>
+</p>
